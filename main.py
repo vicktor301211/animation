@@ -39,8 +39,8 @@ class Ball(AnimatedObject):
 root = tk.Tk()
 root.title('Анимация "Пчела"')
 
-width = 1600
-height = 900
+width = 900
+height = 800
 canvas = tk.Canvas(root, width=width, height=height, bg = 'lightblue')
 canvas.pack()
 
